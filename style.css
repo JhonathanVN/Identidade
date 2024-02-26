@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+header{
+    background-color: rgba(255, 255, 255, 0.623);
+    text-align: justify;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+div{
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 20px;
+    text-align: justify;
+    margin: auto;
+    margin-top: 20px;
+    width: 80%;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.541);
+    box-shadow: 0px 0px 7px white;
+    transition: .5s;
+}
+div > p{
+    margin-top: 10px;
+}
+div > h4{
+    margin-top: 10px;
+}
+button{
+    margin-top: 10px;
+    padding: 20px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.753);
+}
+button:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+    transition: .5s;
+}
+span > #imagem{
+    display: none;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.377);
+}
+span > #par{
+    display: none;
+    text-align: center;
+}
+span > #fecha{
+    display: none;
+    margin: auto;
+    margin-top: 10px;
+}
+footer{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: white;
+    text-align: center;
+}
+footer > p{
+    margin-bottom: 10px;
+}
+footer > p > a{
+    color: white;
+}
+@media screen and (min-width: 750px) {
+    div{
+        font-size: 1.2em;
+        transition: .5s;
+        width: 50%;
+    }
+    button{
+        padding: 30px;
+    }
+    span > #fecha{
+        margin-top: 20px;
+}
+}
